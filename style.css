@@ -1,0 +1,63 @@
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alatsi|Anton|Archivo+Black|Squada+One&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+/*
+font-family: 'Anton', sans-serif;
+font-family: 'Alatsi', sans-serif;
+font-family: 'Archivo Black', sans-serif;
+font-family: 'Squada One', cursive;
+*/
+*{
+	transition: 0.5;
+}
+body{
+	overflow-x: hidden;
+	user-select: none;
+	overflow-y: hidden;
+}
+.text-muted{
+font-family: 'Squada One', cursive;
+font-size: 18px;
+}
+h2{
+font-size: 50px;
+font-family: 'Archivo Black', sans-serif;
+}
+p{
+	margin-top: 10px;
+	font-family: 'Alatsi', sans-serif;
+	font-size: 22px;
+
+}
+.thecontainer{
+	margin: 20px;
+	display: flex;
+	flex-grow: 1;
+	justify-content: center;
+}
+.details{
+margin-top: 5vh;
+}
+img{
+	margin-bottom: 20px;
+	max-height: 250px;
+	border-radius: 50%;
+	border:1px solid black;
+	justify-content: center;
+}
+.connectme{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.fab{
+		font-size: 30px;
+		color: #ffffff;
+	    background-color: #343a40;
+	    padding: 20px;
+	    flex-basis: 100px;
+	    flex-grow: 1;
+
+}
